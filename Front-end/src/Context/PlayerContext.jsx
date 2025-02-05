@@ -6,7 +6,7 @@ export default function PlayerState({children}){
     const audioRef=useRef();
     const seekBg=useRef();
     const seekBar=useRef();
-    const url="http://localhost:4000";
+    const url="https://spotify-clone-backend-xo92.onrender.com";
 
     const[songData,setSongsData]=useState([]);
     const[track,setTrack]=useState(null);
