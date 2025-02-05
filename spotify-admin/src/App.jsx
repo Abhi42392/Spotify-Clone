@@ -7,7 +7,7 @@ import ListSong from './pages/ListSong';
 import ListAlbum from './pages/ListAlbum';
 import SideBar from './Components/SideBar';
 import NavBar from './Components/NavBar';
-export const url="http://localhost:4000"
+export const url="https://spotify-clone-backend-xo92.onrender.com"
 const App = () => {
   return (
     <div className='flex items-start min-h-screen'>
